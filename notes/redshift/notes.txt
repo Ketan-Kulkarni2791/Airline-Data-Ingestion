@@ -1,0 +1,33 @@
+******** What is Amazon Redshift ?? ********
+
+-- Fully managed, peta-byte scale 'data warehouse' service in aws.
+-- Allows organizations to store structured data and perform fast queries using SQL.
+
+
+******** OLAP vs OLTP ********
+
+-- Redshift is OLAP i.e. Online Analytical Processing system.
+-- Other conventional databases are OLTP i.e. Online Transaction Processing databases.
+
+>>>> notes\redshift\images\olap_vs_oltp.jpg
+
+>>>> notes\redshift\images\which_dbs_to_use.jpg
+
+>>>> notes\redshift\images\key_differences_olap_vs_oltp.jpg
+
+>>>> notes\redshift\images\table_comparison_olap_vs_oltp.jpg
+
+
+******** Redshift vs Traditional Datawarehouse ********
+
+-- Before redshift, companies used expensive on-premise Datawarehouse like Teradata, Oracle Exadata,
+   and Netezza.
+-- These solutoins required heavy infrastructure investments and maintainance.
+-- Redshift changes the game by offering a fully managed cloud-based data warehouse eliminating 
+   hardware cost and providing seamless scalability.
+
+
+******** Redshift Pricing Model ********
+
+>>>> notes\redshift\images\redshift_pricing_model.jpg
+
