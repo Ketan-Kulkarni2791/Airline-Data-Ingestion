@@ -31,3 +31,25 @@
 
 >>>> notes\redshift\images\redshift_pricing_model.jpg
 
+
+******** Hands-on ********
+
+-- Go to amazon redshift home page.
+-- Click on 'Provisioned clusters dashboard' > 'Create cluster'.
+-- Give cluster a name like 'etl-demo-rs'.
+-- Node type - 'dc2.large'. 
+-- Number of nodes - 2.
+-- Tick on 'Load sample data'.
+-- Admin user name - 'etl-demo-user'. Then select 'Generate admin user password'.
+-- Then remove the existing IAM role and create a new IAM role.
+-- Keep it a blank IAM role for now with default settings.
+-- 'Create Cluster'.
+
+-- Then click on 'Query editor v2' to run a sample query.
+-- Click on 'etl-demo-rs' to connect using 'Database username and password'.
+-- 'Create connection'.
+-- Then create a dummy table, insert some values in it and fetch those values.
+-- That's it for this hands-on.
+
+
+
