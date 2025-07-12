@@ -1,0 +1,11 @@
+-- Serverless and fully managed service.
+-- Supports RESTful and Websocket api.
+
+-- Search 'api gateway' > 'Create Api'.
+-- Click on 'Build' in REST Api section.
+-- Select 'New Api'. API Name : Demo1 > 'Create API'.
+-- Then click on 'Create Resource'. Name is 'users'. > 'Create Resource'.
+-- Now we have to create a GET api.
+-- Click on 'Create Method'. Method Type : GET.
+-- Integration type : Lambda function.
+

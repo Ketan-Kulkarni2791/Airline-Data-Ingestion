@@ -52,4 +52,24 @@
 -- That's it for this hands-on.
 
 
+******** Redshift Architecture ********
+
+-- Amazon redshift follows a MPP system. Massively Parallel Processing sysytem.
+-- 3 main components:
+
+   1. Client applications like BI tools, ETL scripts, SQL queries and dashboards.
+   2. Leader node which manages query planning and coordination.
+   3. Compute nodes which executes queries and stores data.
+
+>>>> notes\redshift\images\reshift_architecture_components.jpg
+
+-- One leader node only and always.
+-- One to many computer nodes.
+-- One to many slices in each compute node.
+
+>>>> notes\redshift\images\columner_database_storage.jpg
+
+>>>> notes\redshift\images\columnar_vs_row_based_storage.jpg
+
+
 
